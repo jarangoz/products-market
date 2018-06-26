@@ -1,0 +1,101 @@
+{
+    "parser": "babel-eslint",
+    "extends": "react-app",
+    "rules": {
+        "key-spacing": 0,
+        "object-curly-spacing": [
+            2,
+            "always"
+        ],
+        "semi": [
+            0,
+            "never"
+        ],
+        "no-underscore-dangle": [
+            0,
+            "allow"
+        ],
+        "no-debugger": [
+            1
+        ],
+        "comma-dangle": [
+            0
+        ],
+        "global-require": [
+            0
+        ],
+        "no-shadow": [
+            0
+        ],
+        "no-param-reassign": [
+            0
+        ],
+        "no-multi-spaces": [
+            "error",
+            {
+                "exceptions": {
+                    "ImportDeclaration": true,
+                    "VariableDeclarator": true
+                }
+            }
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "warn",
+                    "log",
+                    "info"
+                ]
+            }
+        ],
+        "jsx-quotes": [
+            2,
+            "prefer-double"
+        ],
+        "wrap-iife": [
+            2,
+            "inside"
+        ],
+        "camelcase": [
+            0,
+            "never"
+        ],
+        "prefer-arrow-callback": [
+            0,
+            "never"
+        ],
+        "react/no-children-prop": [
+            0,
+            "never"
+        ],
+        "react/forbid-prop-types": [
+            0,
+            "never"
+        ],
+        "react/jsx-filename-extension": [
+            0,
+            "never"
+        ],
+        "jsx-a11y/no-static-element-interactions": [
+            0,
+            "never"
+        ],
+        "react/require-default-props": [
+            0,
+            "never"
+        ],
+        "import/no-extraneous-dependencies": [
+            0,
+            "never"
+        ],
+        "import/extensions": [
+            0,
+            "never"
+        ],
+        "import/no-unresolved": [
+            0,
+            "never"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+@import '../../../styles/__globals.scss';
+
+.navigation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: $navigation-height;
+    top: 0;
+    position: fixed;
+    background-color: $navigation-var-color;
+    z-index: 40;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: $primary-color;
+        height: 100%;
+        padding: 0 $medium-padding;
+        font-size: $regular-font-size;
+
+        &:hover, &:focus {
+            background-color: $option-active-color;
+            color: $primary-font-color;
+        }
+
+    }
+}

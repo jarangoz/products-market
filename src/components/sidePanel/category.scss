@@ -1,0 +1,78 @@
+@import '../../styles/__globals.scss';
+
+%icon-base {
+    margin-right: $right-margin-size;
+    border-radius: $circle-radius;
+    background-color: $navigation-var-color;
+    color: $primary-color;
+    padding: $small-padding;
+    width: 34px;
+    height: 34px;
+    padding: 8px 11px;
+}
+
+%icon-base-before {
+    width: 40px;
+    height: 40px;
+    color: $primary-color;
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+.category-option {
+    color: $primary-font-color;
+    text-decoration: none;
+
+    &__link {
+        padding: $padding-xmedium;
+        display: flex;
+        width: 100%;
+        font-size: $medium-font-size;
+        display: flex;
+        align-items: center;
+
+        &-icon-computer {
+            @extend %icon-base; 
+           
+            &:before {
+                content: '\e957';
+                @extend %icon-base-before; 
+            }
+        }
+        &-icon-list {
+            @extend %icon-base; 
+           
+            &:before {
+                content: '\e9bb';
+                @extend %icon-base-before; 
+            }
+        }
+        &-icon-folder {
+            @extend %icon-base; 
+           
+            &:before {
+                content: '\e92f';
+                @extend %icon-base-before; 
+            }
+        }
+        &-icon-build {
+            @extend %icon-base; 
+           
+            &:before {
+                content: '\e991';
+                @extend %icon-base-before; 
+            }
+        }
+
+        &-active {
+            background-color: $option-active-color;
+            color: $primary-font-color;
+            font-weight: $bold-font;
+        }
+
+        &:hover {
+            background-color: $category-active;
+            color: $primary-font-color;
+        }
+    }
+}

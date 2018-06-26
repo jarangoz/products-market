@@ -1,0 +1,26 @@
+@import '../../styles/__globals.scss';
+
+.panel-categories-section {
+    max-width: 450px;
+
+    &__nav {
+        position: fixed;
+        width: 300px;
+        top: $navigation-height;
+        bottom: 0;
+        left: 0;
+        z-index: 20px;
+        background-color: $primary-color;
+        border-right: 1px solid $border-color;
+
+        &-title {
+            padding: $padding-xmedium;
+            font-size: $regular-font-size;
+            padding: 16px;
+            font-size: 16px;
+            width: 100%;
+            display: flex;
+            color: gray;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+// Import requested styles
+@import 'react-md/src/scss/_react-md.scss';
+@import './__vars';
+@import './__pages';
+@import './__colors';
+@import './__fonts.scss';
+
+$md-primary-color: $md-teal-500;
+$md-secondary-color: $md-purple-a-400;
+
+@include react-md-everything;
